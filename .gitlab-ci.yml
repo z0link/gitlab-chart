@@ -1,0 +1,7 @@
+stages:
+  - build
+
+include:
+  - project: "pub/templates"
+    file: "/charts/ci/helm-package.yaml"
+
